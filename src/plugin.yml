@@ -1,0 +1,16 @@
+main: me.nightfoxie.WledIntegration
+name: WledIntegration
+version: 1.0
+author: nightfoxie
+api-version: 1.20
+description: A plugin for controlling a WLED instance.
+commands:
+  wled:
+    description: "Control your real WLED instance in a virtual environment."
+    usage: /wled
+    permission: WledIntegration.myAss
+    permission-message: "Sadly, but you don't have permission to use this plugin."
+    on:
+      usage: on
+    off:
+    brightness:
